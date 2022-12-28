@@ -8,8 +8,8 @@ The official code and dataset of our paper:
 You can follow the instructions below to run the code.
 
 ## 1.Data Preparation
-- If you need the IC9600 dataset for academic usage, please send an email explaining your use purpose to `tinglyfeng@163.com`. We will process your application as soon as possible. Please make sure that the email used comes from your educational institution.
--  Uncompress the dataset and put the images and annotations in the working directory.
+- If you need the IC9600 dataset for academic usage, please send an email explaining your use purpose to `tinglyfeng@163.com`. We will process your application as soon as possible. Please make sure that the email comes from your educational institution.
+-  Uncompress the dataset and put it in the working directory.
 - Download the pre-trained checkpoint from [Google Drive](https://drive.google.com/drive/folders/1N3FSS91e7FkJWUKqT96y_zcsG9CRuIJw?usp=sharing) and put them in the working directory.
   
 The file tree now looks like this:
