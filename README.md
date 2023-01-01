@@ -1,15 +1,21 @@
-## *IC9600: A Benchmark Dataset for Automatic Image Complexity Assessment*
+# *IC9600: A Benchmark Dataset for Automatic Image Complexity Assessment*
 The official code and dataset of our paper:
 
 *IC9600: A Benchmark Dataset for Automatic Image Complexity Assessment*
 
-## Dataset Overview
+<br/>
+
+# Dataset Overview
 Sample images of our IC9600 dataset in different categories.'S1-S5' denotes the distribution of complexity scores (1-5 point scale) annotated by 17 annotators. The images are ranked by the average scores (top on each image, normalized to [0, 1]).
 <p align="center">
   <img width="80%" src="./figure/dataset.png">
 </p>
 
-## ICNet Pipeline
+<br/>
+
+
+
+# ICNet Pipeline
 Pipeline of our proposed ICNet. The model consists of a shallow and a deep extractor modified from a ResNet18. 
 The ”CS(N)” on the arrow stands for $N_{th}$ convolutional stage of ResNet18. 
 The detail branch captures spatial and low-level features from high-resolution image, while the context branch fed a smaller image extracts context and high-level representations. 
@@ -18,12 +24,14 @@ Besides, the feature maps with an orange arrow behind them are refined by our pr
 <p align="center">
   <img width="80%" src="./figure/pipeline.png">
 </p>
+ <br/>
 
-
-## IC9600 Dataset
+# IC9600 Dataset
 If you need the IC9600 dataset for academic usage, please send an email explaining your use purpose to `tinglyfeng@163.com`. We will process your application as soon as possible. Please make sure that the email comes from your educational institution.
 
-## Training and Evaluation
+<br/>
+
+# Training and Evaluation
 Uncompress the dataset and put it in the working directory:
 
 > IC9600\
@@ -46,10 +54,10 @@ python==3.9.9
 torch==1.8.1+cu111
 torchvision==0.9.1+cu111
 ```
+<br/>
 
-
-## Generating Image Complexity Scores and Maps
-We provide the off-the-shelf script to generate complexity scores and maps for any given image. To do so, you should first download the trained model weights from [Google Drive](https://drive.google.com/drive/folders/1N3FSS91e7FkJWUKqT96y_zcsG9CRuIJw?usp=sharing) and put it to the `checkpoint` folder under the working directory:
+# Generating Image Complexity Scores and Maps
+We provide the off-the-shelf script to generate complexity scores and maps for any given image. To do so, you should first download the trained model weights from [Google Drive](https://drive.google.com/drive/folders/1N3FSS91e7FkJWUKqT96y_zcsG9CRuIJw?usp=sharing) and put it into the `checkpoint` folder under the working directory:
 > checkpoint\
 > └── ck.pth
 
@@ -66,7 +74,9 @@ For each image `img_i.xxx`, a npy file named `img_i_{complexity score}.npy` enco
 
 Besides, to visualize the complexity map, a png file `img_i.png` that blends the original image and complexity map is also produced in the output directory.
 
-## Complexity Map Visualizations
+<br/>
+
+# Complexity Map Visualizations
 
 Visualization results of some images from our test set. The left (right) image of each pair is the input image (predicted complexity map). 
 The number in the bracket represents the predicted complexity score from our model while the number outside the bracket is its ground truth score (normalized to 0 − 1) labeled by the annotators. 
@@ -74,8 +84,9 @@ The number in the bracket represents the predicted complexity score from our mod
 <p align="center">
   <img width="80%" src="./figure/visualization.png">
 </p>
+<br/>
 
-## Citation
+# Citation
 If you find this repo useful, please cite the following publication:
 ```
 @article{feng2022ic9600,
