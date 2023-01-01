@@ -6,7 +6,7 @@ The official code and dataset of our paper:
 ## Dataset Overview
 Sample images of our IC9600 dataset in different categories.'S1-S5' denotes the distribution of complexity scores (1-5 point scale) annotated by 17 annotators. The images are ranked by the average scores (top on each image, normalized to [0, 1]).
 <p align="center">
-  <img width="80%" src="./figure/motivation.png">
+  <img width="80%" src="./figure/dataset.png">
 </p>
 
 ## ICNet Pipeline
