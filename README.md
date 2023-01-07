@@ -89,13 +89,13 @@ The number in the bracket represents the predicted complexity score from our mod
 # Citation
 If you find this repo useful, please cite the following publication:
 ```
-@article{feng2022ic9600,
+@article{feng2023ic9600,
   title={IC9600: A Benchmark Dataset for Automatic Image Complexity Assessment},
   author={Feng, Tinglei and Zhai, Yingjie and Yang, Jufeng and Liang, Jie and Fan, Deng-Ping and Zhang, Jing and Shao, Ling and Tao, Dacheng},
-  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   number={01},
   pages={1--17},
-  year={2022},
+  year={2023},
   publisher={IEEE Computer Society}
 }
 ```
