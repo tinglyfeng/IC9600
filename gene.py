@@ -45,7 +45,7 @@ def infer_one_image(img_path):
         ## gene blend map
         ic_map_img = (ic_map * 255).round().squeeze().detach().cpu().numpy().astype('uint8')
         blend_img = blend(np.array(ori_img), ic_map_img)
-        out_blend_img_name = out_ic_map_name = os.path.basename(img_path).split('.')[0]  + '.png'
+        out_blend_img_name = os.path.basename(img_path).split('.')[0]  + '.png'
         out_blend_img_path = os.path.join(args.output, out_blend_img_name)
         cv2.imwrite(out_blend_img_path, blend_img)
         return ic_score
