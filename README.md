@@ -96,6 +96,7 @@ If you find this repo useful, please cite the following publication:
   number={01},
   pages={1--17},
   year={2023},
-  publisher={IEEE Computer Society}
+  publisher={IEEE Computer Society},
+  doi={10.1109/TPAMI.2022.3232328},
 }
 ```
