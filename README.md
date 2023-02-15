@@ -88,7 +88,7 @@ The number in the bracket represents the predicted complexity score from our mod
 
 # Resource
 - The Chinese version of our paper can be downloaded from [here](https://drive.google.com/file/d/1ZIicvVpP7ObVyT7xCi6FAO6z3pZ4UOTR/view?usp=sharing).
-- More resources can be found on our [main page](http://120.77.240.72/).
+- More resources can be found on our [main page](http://101.42.230.40/).
 <br/>
 
 
