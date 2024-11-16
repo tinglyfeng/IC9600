@@ -27,7 +27,7 @@ Besides, the feature maps with an orange arrow behind them are refined by our pr
  <br/>
 
 # IC9600 Dataset
-If you need the IC9600 dataset for academic usage, please send an email explaining your use purpose to `tinglyfeng@163.com`. We will process your application as soon as possible. Please make sure that the email comes from your educational institution.
+If you need the IC9600 dataset for academic usage, you can apply through this [google drive link](https://drive.google.com/drive/folders/1sGDpsYh6Zrls2T-lQFVHb1VbZjlArf0H?usp=sharing). We will process your application as soon as possible.
 
 <br/>
 
